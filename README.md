@@ -13,13 +13,14 @@ Implementing the features of Structured Query Language to the Solidity Smart Con
 To use this features in your smart contract, import like this:
 
 ```bash
-  import "https://github.com/Gajjar-Mohit/SmartQuery/blob/main/Main.sol";
+  import "https://github.com/Smart-Query/SmartQuery/blob/main/Main.sol";
 ```
 
 ## Example
 
 Your smart contract will look like this:
 
+```bash
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
