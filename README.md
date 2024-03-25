@@ -20,11 +20,10 @@ To use this features in your smart contract, import like this:
 
 Your smart contract will look like this:
 
-```bash
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import "https://github.com/Gajjar-Mohit/SmartQuery/blob/main/Main.sol";
+import "https://github.com/Smart-Query/SmartQuery/blob/main/Main.sol";
 
 contract Test is Main {
     function insert(string memory tableName, string memory data) public {
